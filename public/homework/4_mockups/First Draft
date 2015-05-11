@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SubSurf</title>
+  <title>Project Mockup</title>
 
   <!-- Connect to Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -37,7 +37,7 @@
       background-color: rgba(155, 17, 21, 1.0);
       color: white;
       font-size: 14pt;
-      padding: 10px;
+      padding-left: 10px;
       text-transform: uppercase;
     }
 
@@ -53,23 +53,22 @@
       box-shadow: 2px 2px 5px 0 gray;
     }
 
-    .card-row {
-      margin-top: 40px;
+
+    .columncustomer {
+      float: left;
+      width: 66%;
+      padding: 10px;
+    }
+
+    .columnpartner {
+      float: right;
+      width: 66%;
+      padding: 10px;
     }
 
     * {
       box-sizing: border-box;
       /*border: thin red solid;*/
-    }
-
-    #main-jumbotron {
-    background: url("CTATrain.jpg") no-repeat center center;
-    background-size: cover;
-    }
-
-    #main-jumbotron .container {
-    color: #EEE;
-    background:rgba(0,0,0,0.25);
     }
 
 
@@ -128,117 +127,139 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
+</div>
+</div>
 
-  <div id="main-jumbotron" class="jumbotron">
-    <div class="container text-center">
-      <h1>SubSurf</h1>
-      <p>The World's Most Efficient Way to Shop.</p>
+
+<div class="container">
+  <img src="CTATrain.jpg" class="col-xs-12">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <h1 class="text-center">SubSurf</h1>
+      </div>
     </div>
   </div>
+  <h2 class="text-center"> How It Works </h2>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Progress</h3>
 
-  <div class="container">
-    <h2 class="text-center"> How It Works </h2>
-    <div class="row">
-      <div class="col-md-12">
-        <h3>Progress</h3>
-
-        <div class="progress">
-          <div class="progress-bar progress-bar-success" style="width: 33%"></div>
-          <div class="progress-bar progress-bar-danger" style="width: 33%"></div>
-          <div class="progress-bar progress-bar-info" style="width: 33%"></div>
-        </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width: 25%"></div>
+        <div class="progress-bar progress-bar-warning" style="width: 25%"></div>
+        <div class="progress-bar progress-bar-danger" style="width: 25%"></div>
+        <div class="progress-bar progress-bar-info" style="width: 25%"></div>
       </div>
     </div>
-      <div class="col-md-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Fill Shopping Cart</h3>
-          </div>
-          <div class="panel-body">
-            <a class="btn btn-primary btn-block" href="#">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Select Delivery Method</h3>
-          </div>
-          <div class="panel-body">
-            <a class="btn btn-primary btn-block" href="#">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Checkout</h3>
-          </div>
-          <div class="panel-body">
-            <a class="btn btn-primary btn-block" href="#">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <h2 class="text-center"> Benefits </h2>
-    <div class="row card-row">
-      <div class="col-md-8">
-        <div class="card">
-          <h4>Value Added to Customers</h4>
-          <ol>
-            <li>Use time spent waiting for the train to shop</li>
-            <li>Save time spent on the train for delivery</li>
-          </ol>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <img src="ShoppingBanner.jpg" class="col-xs-12">
-      </div>
-    </div>
-    <div class="row card-row">
-      <div class="col-md-4">
-        <img src="RideSharing.jpg" class="col-xs-12">
-      </div>
-
-      <div class="col-md-8">
-        <div class="card">
-          <h4>Value Added to Partners (Retail, Delivery)</h4>
-          <ol>
-            <li>Increase Market Share Versus Competitors</li>
-            <li>Create and Capture Value</li>
-          </ol>
-        </div>
-      </div>
-    </div>
-    <div class="row card-row">
-      <div class="col-md-8">
-        <div class="card">
-          <h4>Value Added to Environment (CTA)</h4>
-          <ol>
-            <li>Increase Public Transportation</li>
-            <li>Decrease Fuel Emissions</li>
-            <li>Serve Customer Better Together than Apart</li>
-            <li>Transform Unused Space into a Revenue Stream</li>
-          </ol>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <img src="CTARidership.jpg" class="col-xs-12">
-      </div>
-    </div>
-    <div class="row Footer">
-      <div class="col-xs-12"></div>
-    </div>
-    <div class="row"></div>
-    <hr>
-
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <footer>&#169; SubSurf 2015</footer>
-      </div>
-    </div>
-
-    <hr>
   </div>
+  <div class="row How It Works">
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Enter Starting Location</h3>
+        </div>
+        <div class="panel-body">
+          <a class="btn btn-primary btn-block" href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Fill Shopping Cart</h3>
+        </div>
+        <div class="panel-body">
+          <a class="btn btn-primary btn-block" href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Select Delivery Method</h3>
+        </div>
+        <div class="panel-body">
+          <a class="btn btn-primary btn-block" href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Checkout</h3>
+        </div>
+        <div class="panel-body">
+          <a class="btn btn-primary btn-block" href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="text-center"> Benefits </h2>
+  <div class="row Value Added to Customer">
+
+    <div class="columncustomer">
+      <div class="card">
+        <h4>Value Added to Customers</h4>
+        <ol>
+          <li>Use time spent waiting for the train to shop</li>
+          <li>Save time spent on the train for delivery</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <img src="ShoppingBanner.jpg" class="col-xs-12">
+    </div>
+  </div>
+  <div class="row Value Added to Partners">
+    <div class="col-md-4">
+      <img src="RideSharing.jpg" class="col-xs-12">
+    </div>
+
+    <div class="columnpartner">
+      <div class="card">
+        <h4>Value Added to Partners (Retail, Delivery)</h4>
+        <ol>
+          <li>Increase Market Share Versus Competitors</li>
+          <li>Create and Capture Value</li>
+        </ol>
+      </div>
+    </div>
+
+  </div>
+  <div class="row Value Added to CTA">
+    <div class="col-md-8"></div>
+    <div class="columncustomer">
+      <div class="card">
+        <h4>Value Added to Environment (CTA)</h4>
+        <ol>
+          <li>Increase Public Transportation</li>
+          <li>Decrease Fuel Emissions</li>
+          <li>Serve Customer Better Together than Apart</li>
+          <li>Transform Unused Space into a Revenue Stream</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <img src="CTARidership.jpg" class="col-xs-12">
+  </div>
+</div>
+<div class="row Footer">
+  <div class="col-xs-12"></div>
+</div>
+<div class="row"></div>
+<hr>
+
+<div class="row">
+  <div class="col-md-12 text-center">
+    <footer>&#169; SubSurf 2015</footer>
+  </div>
+</div>
+
+<hr>
+
+</div>
 </body>
 </html>
